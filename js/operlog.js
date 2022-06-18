@@ -10,7 +10,7 @@ function muestraHora(){
 let hora;
 hora=new Date();
 let cadena= hora.getHours()+":"+hora.getMinutes()+":"+hora.getSeconds();
-return cadena
+return cadena 
 }
 document.getElementById("hora").innerHTML= muestraHora();
 
